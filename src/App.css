@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body{
+  background-color: #F5F6FA;
+}
+aside#logo-sidebar {
+  background-color: white;
+}
+svg.w-6.h-6.text-gray-800.dark\:text-gray-400 {
+  margin-right: 30px;
+}
+form.max-w-lg.mx-auto {
+  margin-right: 30px;
+}
+input#search-dropdown {
+  /* width: 376px; */
+}
+.relative.m-4.overflow-x-auto.shadow-md.sm\:rounded-lg {
+  background-color: white;
+}
+.middle {
+  background-color: #f5f6fa;
+  width: flex;
+}
+.flex.p-1.pr-1\.5.ml-3.rounded-lg.bg-green-100 {
+  margin-top: -3px;
+}
+.headingdiv {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-end;
+}
+@media (prefers-color-scheme: dark) {
+  .dark\:text-white {
+      --tw-text-opacity: 1;
+      color: rgb(255 255 255 / var(--tw-text-opacity));
+  }
+}
